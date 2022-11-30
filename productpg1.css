@@ -17,6 +17,9 @@ width: 33.33%;
 
 padding: 5px;  
 
+background-color: tan
+;
+
 }  
 
  
@@ -35,57 +38,6 @@ display: table;
 }  
 
  
- 
-
-ul {  
-
-list-style-type: none;  
-
-margin: 0;  
-
-padding: 0;  
-
-overflow: hidden;  
-
-}  
-
- 
- 
-
-li {  
-
-float: left;  
-
-}  
-
- 
- 
-
-li a {  
-
-display: block;  
-
-padding: 8px;  
-
-background-color: #dddddd;  
-
-}  
-
- 
- 
-
-a{  
-
- 
- 
-
-display: block;  
-
-padding: 8px;  
-
-background-color: #dddddd;  
-
-}  
 
  
  
@@ -94,11 +46,16 @@ h2{
 
 text-align: center;  
 
-background-color:Green;  
+background-color:tan;  
 
 }  
+body{
+   background-color: #143411be;
+}
 
- 
+p{
+   background-color: pink;
+}
  
 
   
