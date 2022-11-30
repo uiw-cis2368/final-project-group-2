@@ -21,3 +21,16 @@
   transform: translate(-30%, -30%);
   text-align: center;
 }
+
+body{
+  background-color: #143411;
+}
+
+.p1{
+  background-color: tan;
+}
+
+
+.col{
+  background-color: tan;
+}
