@@ -1,8 +1,46 @@
-body{
-    background-color: black;
-  }
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{
+  top: 10px;
+  position: relative;
+}
 
-  h1{
-    color:white;
-      font-family: Arial, Helvetica, sans-serif;
-  }  
+#header-image-menu img{
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+
+#image-text{
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  font-family: 'Roboto';
+  color: #000;
+  transform: translate(-30%, -30%);
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .column{
+      display: block;
+      width: 100%;
+  }
+}
+
+body{
+  background-color: #143411;
+}
+
+.h{
+  background-color: tan;
+}
+.p1{
+  background-color: tan;
+}
+
+
+.col{
+  background-color: tan;
+}
