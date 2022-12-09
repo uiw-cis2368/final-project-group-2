@@ -1,0 +1,137 @@
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(2, 192, 255); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04ccf4;
+    color: rgb(255, 251, 251);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ddff00bc;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #dea5a4;
+    padding: 20px;
+  }
+  body{
+    margin: 0;
+     padding: 0;
+     font-family: "open sans",sans-serif;
+     background-image: url('soap.gif');
+    background-size: auto;
+    height: auto;
+   
+  }
+  .about-section{
+    width: 50%;
+  background:rgb(210, 180, 140);
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 170px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+  border-left: 50px solid #143411be;
+  border-right: 50px solid #143411be;
+   
+   
+  }
+  .inner-width{
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: auto;
+  }
+  .about-section h1{
+    text-align: center;
+  }
+  .border{
+    width: 100px;
+    height: 3px;
+    background: #00a6ff;
+    margin: 40px auto;
+  }
+  .about-section-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-section-col{
+    flex: 50%;
+  }
+  .about{
+    padding-right: 30px;
+  }
+  .about p{
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #4400ff;
+    font-size: 17px;
+  }
+  .about a{
+    display: inline-block;
+    color: #00ff0d;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 8px 40px;
+    transition: 0.4s linear;
+  }
+  .about a:hover{
+    color: rgb(253, 7, 31);
+    background: #009dff;
+  }
+  .skills{
+    padding-left: 30px;
+  }
+  .skill{
+    margin-bottom: 10px;
+  }
+  .title{
+    color: #f70101
+  }
+  .progress{
+    width: 100%;
+    height: 12px;
+    background: rgb(221, 221, 221);
+    border-radius: 12px;
+  }
+  .p1{
+    width: 90%;
+  }
+  .p2{
+    width: 70%;
+  }
+  .p3{
+    width: 50%;
+  }
+  
+  @media screen and (max-width:700px) {
+    .about-section-col{
+      flex: 100%;
+      margin: 10px 0;
+    }
+    
+    .about{
+      text-align: center;
+    }
+  }

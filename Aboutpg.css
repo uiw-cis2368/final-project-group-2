@@ -1,0 +1,78 @@
+body 
+{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+style {
+    background-position: header;
+}
+
+col1 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+    
+}
+title{
+    text-underline-offset:inherit;
+    
+ text-decoration: underline;   
+ color: white;
+ 
+}
+
+p{
+    
+    
+    font-size: medium; 
+}
+col2 
+{
+
+    color: white;
+    border-style: solid;
+ font-family: 'Times New Roman', Times, serif;
+ border: 1in;
+ text-align: center;
+ border-color: black;
+ 
+}
+button {
+     
+    font-family: sans-serif;
+}
+.text-footer {
+text-align: right;
+
+}
+.services { 
+    position: absolute;
+    left: 600px;
+    right: 300px;
+}
+ 
+.one 
+{
+align-items: center;
+}
+.box1 
+{
+position: absolute;
+left: 300px;
+right: 300px;
+text-decoration: underline;
+}
+
+
+.box3 
+{
+  position: absolute;
+
+}
+.collapseExample 
+{
+position: absolute;
+right: 300px;
+left: 300px;
+list-style-type:decimal;
+}
